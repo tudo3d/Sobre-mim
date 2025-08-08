@@ -3,53 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Um pouco sobre a TUDO 3D </title>
-  <link rel="stylesheet" href="estilo.css">
-<script src="jquery.js">
-</script>
-</head>
+  <title>MICHEL ANTONIO BERTOLDI</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: white;
+      line-height: 1.6;
+      font-family: 'Poppins', sans-serif;
+      text-align: center; 
+    }
 
+    h1 {
+      color: red;
+      margin: 20px 0 10px;
+    }
+    
+    h2 {
+      color: rgb(3, 142, 255);
+      font-size: 30px;
+      margin-top: 15px;
+    }
+
+    p {
+      color: black;
+      font-size: 30px;
+      margin: 0 5px 15px;
+    }
+
+    ul {
+      list-style-type: disc;        
+      list-style-position: inside;  
+      color: aquamarine;
+      font-size: 20px;
+      margin-bottom: 20px;
+      display: inline-block;        
+      text-align: left;             
+    }
+
+    img {
+      display: block;              
+      margin: 10px auto;           
+      max-width: 100%;             
+      height: auto;
+    }
+
+    .hobie {
+      width: 200px;
+    }
+
+    .suiça, .japão, .EUA {
+      max-width: 500px;
+    }
+
+    a.imagem h1 {
+      text-decoration: none;
+    }
+    h6 {text-align: center;
+        color: rgb(146, 88, 2);}
+  </style>
 </head>
 <body>
-<h1>História da Tudo 3D</h1>
-<br>
-<p> O pequeno negócio de Tudo 3D foi criado no ano de 2021, com apenas uma impressora do modelo Creality (Ender 3 S1) ele tinha vontade de começar algo que ajudasse as pessoas, porém que fosse de forma mais única então pensou em produzir peças em 3D.</p>
-<p> A ideia acabou dando certo e ao longo dos anos, a microempresa foi aumentando a sua produção, dessa forma Tudo 3D comprou outras duas impressoras 3D, sendo uma delas o seu orgulho com dimensões de 500x500x500mm com alta velocidade de impressão.</p>
-<br>
-<h2>Local de produção</h2>
-  <div class="carousel-container">
-    <div class="carousel-images" id="carousel">
-      <img src="logo/PXL_20250316_214500263.MV.jpg" alt="Impressora 1">
-      <img src="logo/PXL_20250227_150109287.MV.jpg" alt="Impressora 2" class="rotated">
-    </div>
-  </div>
-  <div class="carousel-buttons">
-    <button onclick="moveSlide(-1)">&larr; Anterior</button>
-    <button onclick="moveSlide(1)">Próximo &rarr;</button>
-  </div>
 
-<h5>INSTRAGAM</h5>
-<h4>Clique aqui</h4>
-<a href="https://www.instagram.com/tudo3dsorriso?igsh=dTZqbzFqdHUxdDVh"margin 30px>
-<img src="logo/logo laranja fundo preto.png"
-alt="Logo instagram"
-class="logot">
-</a>
+  <p>Atualmente sou dono de uma empresa de impressão na minha cidade, tenho muita paixão por tecnologia, mecânica e automação residencial tenho 22 Anos, estou morando em Sorriso-MT.</p>
 
-<div class="section" id="contato">
-    <h2>Contato</h2>
-    <form action="#" method="post">
-      <input type="text" name="nome" placeholder="Seu nome" required>
-      <input type="email" name="email" placeholder="Seu e-mail" required>
-      <textarea name="mensagem" rows="4" placeholder="Como podemos ajudar?" required></textarea>
-      <button type="submit">Enviar mensagem</button>
-    </form>
-    <p class="contact-info">
-      📞 (66) 99712-2518 – WhatsApp<br>
-      📍 Sorriso-MT – Seg a Sex, das 8h às 18h
-    </p>
-  </div>
+  <ul> 
+    <h6>MEUS HOBIES</h6>
+    <li>Automobilismo</li>
+    <li>Configurar componentes eletrônicos</li>
+    <li>Provar tipos diferentes de comidas</li>
+  </ul>
 
-  
+  <img src="fotos/Automodelo_rc_combustao_off_road_monster_truck.jpg" alt="Automodelo RC" class="hobie">
+    <h6>PAÍSES ONDE GOSTARIA DE CONHECER</h6>
+  <h2>Suiça</h2>
+  <img src="fotos/gettyimages-1731812898-612x612.jpg" alt="Suíça" class="suiça">
+
+  <h2>Japão</h2>
+  <img src="fotos/gettyimages-968162396-612x612.jpg" alt="Japão" class="japão">
+
+  <h2>Estados Unidos</h2>
+  <img src="fotos/istockphoto-1400115197-612x612.jpg" alt="Estados Unidos" class="EUA">
+
+  <a href="https://www.instagram.com/nocontroleracing/" class="imagem" target="_blank">
+    <h1>Competição De Automodelos RC</h1>
+  </a>
+
 </body>
 </html>
